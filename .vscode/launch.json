@@ -5,45 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}"
-            ],
-            "name": "Launch Extension",
-            "outFiles": [
-                "${workspaceFolder}/out/**/*.js"
-            ],
-            "preLaunchTask": "npm",
-            "request": "launch",
-            "runtimeExecutable": "${execPath}",
-            "type": "pwa-extensionHost"
-        },
-        {
-            "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}"
-            ],
-            "name": "Launch Extension",
-            "outFiles": [
-                "${workspaceFolder}/out/**/*.js"
-            ],
-            "preLaunchTask": "npm",
-            "request": "launch",
-            "runtimeExecutable": "${execPath}",
-            "type": "pwa-extensionHost"
-        },
-        {
-            "type": "node",
-            "request": "attach",
-            "name": "Docker: Attach to Node",
-            "remoteRoot": "/usr/src/app"
-        },
-        {
-            "args": [
-                "generator"
-            ],
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen",
-            "name": "Yeoman generator",
-            "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
@@ -57,35 +19,13 @@
             "type": "node-terminal"
         },
         {
-            "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}"
-            ],
-            "name": "Launch Extension",
-            "outFiles": [
-                "${workspaceFolder}/out/**/*.js"
-            ],
-            "preLaunchTask": "npm",
-            "request": "launch",
-            "runtimeExecutable": "${execPath}",
-            "type": "pwa-extensionHost"
-        },
-        {
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/app.js",
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "pwa-node"
-        },
-        {
-            "type": "pwa-node",
+
             "request": "launch",
             "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${file}"
+
         }
     ]
 }
